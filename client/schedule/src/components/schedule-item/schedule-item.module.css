@@ -1,0 +1,45 @@
+.scheduleItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  align-items: center;
+  height: 2.5rem;
+}
+
+.DescriptionInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 50%;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.DateInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0;
+  width: 21%;
+  font-family: inherit;
+  font-size: 1.1rem;
+}
+
+.time {
+  font-size: 1rem;
+  width: 40%;
+}
+
+.DeleteButton {
+  background-color: #ff0000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.DeleteButton:hover{ 
+  background-color: rgb(131, 76, 76);
+}

@@ -1,0 +1,64 @@
+.AddForm {
+  width: 100%;
+  display: flex;
+  height: 25px;
+  margin-bottom: 2px;
+}
+
+.DescriptionInput {
+  width: 40%;
+  height: inherit;
+  padding: 0;
+  margin-right: 5px;
+  background: transparent;
+  border: 1px solid #ad5725;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.TimeInput {
+  color: white;
+}
+
+.Time {
+  display: flex;
+  width: 50%;
+  height: inherit;
+  margin-bottom: 5px;
+}
+
+.DateInput {
+  display: flex;
+  text-align: center;
+  width: 20%;
+  padding: 0;
+  height: inherit;
+  background: transparent;
+  border: 1px solid #9c542983;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.Submit {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  font-size: 1.5rem;
+  height: inherit;
+  border: none;
+}
+
+.DateInput:invalid {
+  outline: 1px solid red;
+}
+
+.DateInput::-webkit-outer-spin-button,
+.DateInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+.DateInput[type=number] {
+  -moz-appearance: textfield;
+}

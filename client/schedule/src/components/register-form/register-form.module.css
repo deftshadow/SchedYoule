@@ -1,0 +1,95 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ErrorMessage {
+  color: red;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+.Button {
+  margin-top: 5px;
+  width: 50%;
+  background-color: #7178d6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color: #772ce8;
+  font-family: inherit;
+  font-size: 1.5rem;
+}
+
+.Button:hover {
+  background-color: #7178d65d;
+  color: black;
+}
+
+.Title {
+  display: block;
+  align-self: center;
+  font-size: 2.8rem;
+}
+
+.Log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #ca5b3f;
+  padding: 2px;
+}
+
+.LogBtn {
+  outline: none;
+  border: 1px solid white;
+  background-color: #7b3cce;
+  width: 40%;
+  padding: 4px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color: red;
+}
+
+.LogBtn:hover {
+  background-color: #6030a0;
+}
+
+ul {
+  flex-direction: column;
+  list-style: none;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+li {
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: red;
+  font-size: 0.8em;
+}
+
+i,
+label {
+  align-self: center;
+}
+
+.Icon {
+  align-self: center;
+}
+
+.Type {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 10px;
+}

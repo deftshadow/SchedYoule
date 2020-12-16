@@ -1,0 +1,86 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Button {
+  margin-top: 5px;
+  width: 50%;
+  background-color: #7178d6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color: #772ce8;
+  font-family: inherit;
+  font-size: 1.5rem;
+}
+
+.Button:hover {
+    background-color: #7178d65d;
+    color: black;
+}
+
+p {
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+}
+
+.Sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #ca5b3f;
+  padding: 2px;
+}
+
+.SignBtn {
+  outline: none;
+  border: 1px solid white;
+  background-color: #7b3cce;
+  width: 50%;
+  padding: 4px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color: red;
+}
+
+.SignBtn:hover {
+  background-color: #6030a0;
+}
+
+.Log {
+  display: block;
+  align-self: center;
+  font-size: 2.8rem;
+}
+
+i,
+label {
+  align-self: center;
+}
+
+.Icon {
+  align-self: center;
+}
+
+.Type {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.ErrorMessage {
+  color: red;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
